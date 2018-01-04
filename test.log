@@ -1,0 +1,28 @@
+2017/06/09 15:16:56 hub.go:46: hub waiting
+2017/06/09 15:20:59 hub.go:46: hub waiting
+2017/06/09 15:21:13 hub.go:50: h.register
+2017/06/09 15:21:13 hub.go:46: hub waiting
+2017/06/09 15:21:13 client.go:64: readPump
+2017/06/09 15:21:13 client.go:141: writePump
+2017/06/09 15:21:15 client.go:64: readPump
+2017/06/09 15:21:15 hub.go:50: h.register
+2017/06/09 15:21:15 hub.go:46: hub waiting
+2017/06/09 15:21:15 client.go:141: writePump
+2017/06/09 15:21:17 client.go:64: readPump
+2017/06/09 15:21:17 client.go:141: writePump
+2017/06/09 15:21:17 hub.go:50: h.register
+2017/06/09 15:21:17 hub.go:46: hub waiting
+2017/06/09 15:21:19 client.go:64: readPump
+2017/06/09 15:21:19 hub.go:50: h.register
+2017/06/09 15:21:19 hub.go:46: hub waiting
+2017/06/09 15:21:19 client.go:141: writePump
+2017/06/09 15:21:21 client.go:82: readPump(message) got  {"type":"msg",  "to":"a@a.com" ,"from":"b@a.com","uuid":"msg1497046881292.YnJvYWRjYXN0LHN5c3RlbSxnZXRncm91cGxpc3Q="} a@a.com
+2017/06/09 15:21:21 client.go:84: to  a@a.com
+2017/06/09 15:21:21 client.go:85: type msg
+2017/06/09 15:21:21 hub.go:78: hub sendto {"type":"msg",  "to":"a@a.com" ,"from":"b@a.com","uuid":"msg1497046881292.YnJvYWRjYXN0LHN5c3RlbSxnZXRncm91cGxpc3Q="}
+2017/06/09 15:21:21 hub.go:46: hub waiting
+2017/06/09 15:21:24 client.go:82: readPump(message) got  {"type":"msg",  "to":"a@a.com" ,"from":"b@a.com","uuid":"msg1497046884665.YnJvYWRjYXN0LHN5c3RlbSxnZXRncm91cGxpc3Q="} a@a.com
+2017/06/09 15:21:24 client.go:84: to  a@a.com
+2017/06/09 15:21:24 client.go:85: type msg
+2017/06/09 15:21:24 hub.go:78: hub sendto {"type":"msg",  "to":"a@a.com" ,"from":"b@a.com","uuid":"msg1497046884665.YnJvYWRjYXN0LHN5c3RlbSxnZXRncm91cGxpc3Q="}
+2017/06/09 15:21:24 hub.go:46: hub waiting
